@@ -1130,10 +1130,11 @@ textarea.form-input {
    Gold Text Gradient
    ======================================== */
 .text-gold-gradient {
-  background: var(--gradient-gold-hero);
+  color: #ffffff; /* Fallback warna putih jika gradien tidak didukung */
+  background: linear-gradient(to bottom, #FFFFFF 0%, #D4AF37 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* ========================================
