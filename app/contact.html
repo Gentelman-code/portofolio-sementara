@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Galih Adam</title>
+  <meta name="description" content="Get in touch with Galih Adam for branding, packaging, editorial, and digital design projects. Based in Yogyakarta, Indonesia.">
+  
+  <link rel="icon" type="image/png" href="./assets/images/logo.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="page-transition active"></div>
+  <div class="custom-cursor"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="./index.html" class="nav-brand">
+        <img src="./assets/images/logo.png" alt="Galih Adam Logo">
+        <span class="nav-brand-text">GALIH ADAM</span>
+      </a>
+      <div class="nav-links">
+        <a href="./index.html" class="nav-link">Home</a>
+        <a href="./about.html" class="nav-link">About</a>
+        <a href="./works.html" class="nav-link">Works</a>
+        <a href="./skills.html" class="nav-link">Skills</a>
+        <a href="./experience.html" class="nav-link">Experience</a>
+        <a href="./contact.html" class="nav-link active">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a href="./contact.html" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="nav-mobile-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-overlay">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./works.html">Works</a>
+    <a href="./skills.html">Skills</a>
+    <a href="./experience.html">Experience</a>
+    <a href="./contact.html">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section style="position: relative; min-height: 45vh; display: flex; align-items: center; justify-content: center; text-align: center; overflow: hidden;">
+    <div style="position: absolute; inset: 0; z-index: 0;">
+      <img src="./assets/images/contact-bg.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="position: absolute; inset: 0; background: rgba(3,3,3,0.75); z-index: 1;"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <h1 class="display-xl reveal" style="color: var(--text-light); margin-bottom: 16px;">Let's Work Together</h1>
+      <p class="body-lg reveal" style="color: var(--text-muted);">Have a project in mind? I'd love to hear about it.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap: 60px; align-items: start;">
+        <!-- Left: Contact Form -->
+        <div class="reveal-left">
+          <div class="glass-card" style="padding: 40px;">
+            <h2 class="display-md" style="color: var(--text-light); margin-bottom: 32px;">Send a Message</h2>
+            
+            <form id="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+              </div>
+              
+              <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+              </div>
+              
+              <div class="form-group">
+                <label class="form-label" for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Project inquiry" required>
+              </div>
+              
+              <div class="form-group">
+                <label class="form-label" for="message">Message</label>
+                <textarea id="message" name="message" class="form-input" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary" style="width: 100%;"><span>Send Message</span></button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right: Contact Info -->
+        <div class="reveal-right">
+          <h2 class="display-md" style="color: var(--text-light); margin-bottom: 32px;">Contact Info</h2>
+          
+          <div style="display: flex; flex-direction: column; gap: 24px; margin-bottom: 32px;">
+            <!-- Email -->
+            <div class="flex items-center gap-16">
+              <div style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); background: var(--bg-glass); border: 1px solid var(--accent-border);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div>
+                <span class="label" style="color: var(--text-dim); display: block; margin-bottom: 4px;">Email</span>
+                <span class="body" style="color: var(--text-light);">adamgalih489@gmail.com</span>
+              </div>
+            </div>
+            
+            <!-- Phone -->
+            <div class="flex items-center gap-16">
+              <div style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); background: var(--bg-glass); border: 1px solid var(--accent-border);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="label" style="color: var(--text-dim); display: block; margin-bottom: 4px;">Phone</span>
+                <span class="body" style="color: var(--text-light);">085742512993</span>
+              </div>
+            </div>
+            
+            <!-- Location -->
+            <div class="flex items-center gap-16">
+              <div style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); background: var(--bg-glass); border: 1px solid var(--accent-border);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="label" style="color: var(--text-dim); display: block; margin-bottom: 4px;">Location</span>
+                <span class="body" style="color: var(--text-light);">Yogyakarta, Bantul, Indonesia</span>
+              </div>
+            </div>
+            
+            <!-- Hours -->
+            <div class="flex items-center gap-16">
+              <div style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); background: var(--bg-glass); border: 1px solid var(--accent-border);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <span class="label" style="color: var(--text-dim); display: block; margin-bottom: 4px;">Availability</span>
+                <span class="body" style="color: var(--text-light);">Mon - Fri, 9AM - 6PM WIB</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Social Links -->
+          <div style="margin-top: 32px;">
+            <span class="label" style="color: var(--text-muted); display: block; margin-bottom: 16px;">Follow Me</span>
+            <div class="flex items-center gap-16">
+              <a href="https://www.instagram.com/g_man_gentle?igsh=MW96c3ZjejN5N3R1ZQ==" target="_blank" class="social-icon" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="https://www.behance.net/rakunmati" target="_blank" class="social-icon" aria-label="Behance">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h6a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3V3z"/><path d="M3 11h7a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3v-8z"/><path d="M15 4h6"/><path d="M15 20h5a3 3 0 0 0 0-6h-5v6z"/></svg>
+              </a>
+              <a href="https://dribbble.com/galih-adam" target="_blank" class="social-icon" aria-label="Dribbble">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"/><path d="M21.75 12.84c-6.62-1.41-12.14 1.36-17.49 7.38"/><path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/galih-adam-arkani-676506354/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="section-compact">
+    <div class="container">
+      <div class="map-container reveal">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63285.16576734126!2d110.2934455!3d-7.7974276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f7a!2sYogyakarta%2C%20Yogyakarta%20City%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1703000000000!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-overlay reveal">
+          <p class="body-sm" style="color: var(--text-light);">Yogyakarta, Indonesia</p>
+          <p class="body-sm" style="color: var(--text-muted);">Special Region of Yogyakarta</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><img src="./assets/images/logo.png" alt="Galih Adam Logo"><p>Visual Communication Designer</p></div>
+        <div class="footer-col"><h4>Navigation</h4><a href="./index.html">Home</a><a href="./about.html">About</a><a href="./works.html">Works</a><a href="./skills.html">Skills</a><a href="./experience.html">Experience</a><a href="./contact.html">Contact</a></div>
+        <div class="footer-col"><h4>Categories</h4><a href="./works/branding.html">Branding</a><a href="./works/packaging.html">Packaging</a><a href="./works/editorial.html">Editorial</a><a href="./works/digital.html">Digital</a><a href="./works/illustration.html">Illustration</a><a href="./works/typography.html">Typography</a></div>
+        <div class="footer-col"><h4>Social</h4><a href="https://www.instagram.com/g_man_gentle?igsh=MW96c3ZjejN5N3R1ZQ==" target="_blank">Instagram</a><a href="https://www.behance.net/rakunmati" target="_blank">Behance</a><a href="https://dribbble.com/galih-adam" target="_blank">Dribbble</a><a href="https://www.linkedin.com/in/galih-adam-arkani-676506354/" target="_blank">LinkedIn</a></div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom"><p>&copy; 2025 Galih Adam. All rights reserved.</p><a href="#">Back to top</a></div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

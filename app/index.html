@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galih Adam — Visual Communication Designer</title>
+  <meta name="description" content="Portfolio of Galih Adam, a Visual Communication Design student based in Yogyakarta specializing in branding, packaging, editorial, and digital design.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/images/logo.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <!-- Page Transition Overlay -->
+  <div class="page-transition active"></div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="./index.html" class="nav-brand">
+        <img src="./assets/images/logo.png" alt="Galih Adam Logo">
+        <span class="nav-brand-text">GALIH ADAM</span>
+      </a>
+      
+      <div class="nav-links">
+        <a href="./index.html" class="nav-link active">Home</a>
+        <a href="./about.html" class="nav-link">About</a>
+        <a href="./works.html" class="nav-link">Works</a>
+        <a href="./skills.html" class="nav-link">Skills</a>
+        <a href="./experience.html" class="nav-link">Experience</a>
+        <a href="./contact.html" class="nav-link">Contact</a>
+      </div>
+      
+      <div class="nav-cta">
+        <a href="./contact.html" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      
+      <div class="nav-mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="nav-overlay">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./works.html">Works</a>
+    <a href="./skills.html">Skills</a>
+    <a href="./experience.html">Experience</a>
+    <a href="./contact.html">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section style="position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding-bottom: 10vh; background: var(--bg-abyss); background-image: var(--gradient-radial-glow);">
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+    
+    <div class="container" style="position: relative; z-index: 1; text-align: center;">
+      <!-- Label -->
+      <div class="reveal" style="margin-bottom: 24px;">
+        <span class="label" style="color: var(--text-gold); letter-spacing: 0.2em;">VISUAL COMMUNICATION DESIGNER</span>
+      </div>
+      
+      <!-- Hero Name -->
+      <h1 class="display-hero text-gold-gradient" style="margin-bottom: 8px; background: linear-gradient(to bottom, #FFF5D6, #D4AF37); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" data-split-text>
+        GALIH
+      </h1>
+      <h1 class="display-hero text-gold-gradient" style="margin-bottom: 24px; animation-delay: 0.4s; background: linear-gradient(to bottom, #FFF5D6, #D4AF37); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" data-split-text>
+        ADAM
+      </h1>
+      
+      <!-- Subtitle -->
+      <p class="body-lg reveal" style="color: var(--text-muted); max-width: 480px; margin: 0 auto 40px;">
+        Crafting Visual Stories That Inspire & Connect
+      </p>
+      
+      <!-- CTAs -->
+      <div class="reveal" style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <a href="./works.html" class="btn btn-primary"><span>View My Works</span></a>
+        <a href="./about.html" class="btn btn-secondary">About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Works Section -->
+  <section class="section section-wide">
+    <div class="container">
+      <!-- Section Heading -->
+      <div class="reveal" style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 60px;">
+        <span class="mono" style="font-size: 14px; color: var(--text-dim);">01</span>
+        <h2 class="section-heading">SELECTED WORKS</h2>
+      </div>
+      
+      <!-- Works Grid (Asymmetric 2-col) -->
+      <div class="grid-2" style="gap: 24px;">
+        <!-- Left Column -->
+        <div style="display: flex; flex-direction: column; gap: 24px;">
+          <!-- Work 1: Coffee -->
+          <a href="./works/branding.html" class="work-card glass-card reveal" style="text-decoration: none;">
+            <img src="./assets/images/work-coffee.jpg" alt="Majestic Coffee Rebrand" class="work-card-image" loading="lazy">
+            <div class="work-card-overlay">
+              <span class="work-card-category">Branding</span>
+              <h3 class="work-card-title">Majestic Coffee Rebrand</h3>
+            </div>
+          </a>
+          
+          <!-- Work 2: Skincare -->
+          <a href="./works/packaging.html" class="work-card glass-card reveal" style="text-decoration: none;">
+            <img src="./assets/images/work-skincare.jpg" alt="Bloom Skincare Packaging" class="work-card-image" loading="lazy">
+            <div class="work-card-overlay">
+              <span class="work-card-category">Photograph</span>
+              <h3 class="work-card-title">Bloom Skincare Packaging</h3>
+            </div>
+          </a>
+        </div>
+        
+        <!-- Right Column (offset) -->
+        <div style="display: flex; flex-direction: column; gap: 24px; margin-top: 60px;">
+          <!-- Work 3: Editorial -->
+          <a href="./works/editorial.html" class="work-card glass-card reveal" style="text-decoration: none;">
+            <img src="./assets/images/work-editorial.jpg" alt="Architectural Digest Editorial" class="work-card-image" loading="lazy">
+            <div class="work-card-overlay">
+              <span class="work-card-category">Editorial</span>
+              <h3 class="work-card-title">Architectural Digest Editorial</h3>
+            </div>
+          </a>
+          
+          <!-- Work 4: Digital -->
+          <a href="./works/digital.html" class="work-card glass-card reveal" style="text-decoration: none;">
+            <img src="./assets/foto/MOUTH.png" alt="Neon Nights Digital Art" class="work-card-image" loading="lazy">
+            <div class="work-card-overlay">
+              <span class="work-card-category">Digital</span>
+              <h3 class="work-card-title">Backpack Digital Art</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <!-- CTA -->
+      <div class="reveal" style="text-align: center; margin-top: 60px;">
+        <a href="./works.html" class="btn btn-secondary">View All Works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items: center; gap: 60px;">
+        <!-- Left Column -->
+        <div class="reveal-left">
+          <div style="margin-bottom: 16px;">
+            <span class="label" style="color: var(--text-dim);">02 — ABOUT</span>
+          </div>
+          <h2 class="display-lg" style="color: var(--text-light); margin-bottom: 24px;">The Designer Behind the Vision</h2>
+          <p class="body-lg" style="color: var(--text-muted); max-width: 440px; margin-bottom: 32px;">
+            I'm Galih Adam, a Visual Communication Design student based in Yogyakarta. I blend creative artistry with strategic thinking to craft visual identities that leave lasting impressions. Every project is an opportunity to tell a unique story.
+          </p>
+          <a href="./about.html" class="btn btn-secondary">Learn More About Me</a>
+        </div>
+        
+        <!-- Right Column -->
+        <div class="image-reveal" style="border-radius: var(--radius-md); overflow: hidden;">
+          <img src="./assets/foto/manusia.jpeg" alt="Galih Adam Portrait" style="width: 100%; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Marquee Section -->
+  <section class="section-compact" style="overflow: hidden;">
+    <!-- Track 1 (scrolls left) -->
+    <div class="marquee" style="margin-bottom: 16px;">
+      <div class="marquee-track">
+        <div class="marquee-content" style="font-family: var(--font-display); font-size: clamp(40px, 7vw, 70px); color: var(--text-gold); opacity: 0.3; padding-right: 40px;">
+          BRANDING &bull; PACKAGING &bull; EDITORIAL &bull; DIGITAL &bull; ILLUSTRATION &bull; TYPOGRAPHY &bull;&nbsp;
+        </div>
+        <div class="marquee-content" style="font-family: var(--font-display); font-size: clamp(35x, 7vw, 70px); color: var(--text-gold); opacity: 0.3; padding-right: 40px;">
+          BRANDING &bull; PACKAGING &bull; EDITORIAL &bull; DIGITAL &bull; ILLUSTRATION &bull; TYPOGRAPHY &bull;&nbsp;
+        </div>
+        <div class="marquee-content" style="font-family: var(--font-display); font-size: clamp(35px, 7vw, 70px); color: var(--text-gold); opacity: 0.3; padding-right: 40px;">
+          BRANDING &bull; PACKAGING &bull; EDITORIAL &bull; DIGITAL &bull; ILLUSTRATION &bull; TYPOGRAPHY &bull;&nbsp;
+        </div>
+      </div>
+    </div>
+    
+    <!-- Track 2 (scrolls right) -->
+    <div class="marquee">
+      <div class="marquee-track reverse">
+        <div class="marquee-content" style="font-family: var(--font-display); font-size: clamp(35px, 7vw, 70px); color: var(--text-dim); opacity: 0.4; padding-right: 40px;">
+          PHOTOSHOP &bull; ILLUSTRATOR &bull; INDESIGN &bull; FIGMA &bull; AFTER EFFECTS &bull; BLENDER &bull;&nbsp;
+        </div>
+        <div class="marquee-content" style="font-family: var(--font-display); font-size: clamp(35px, 7vw, 70px); color: var(--text-dim); opacity: 0.4; padding-right: 40px;">
+          PHOTOSHOP &bull; ILLUSTRATOR &bull; INDESIGN &bull; FIGMA &bull; AFTER EFFECTS &bull; BLENDER &bull;&nbsp;
+        </div>
+        <div class="marquee-content" style="font-family: var(--font-display); font-size: clamp(35px, 7vw, 70px); color: var(--text-dim); opacity: 0.4; padding-right: 40px;">
+          PHOTOSHOP &bull; ILLUSTRATOR &bull; INDESIGN &bull; FIGMA &bull; AFTER EFFECTS &bull; BLENDER &bull;&nbsp;
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section style="position: relative; min-height: 50vh; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+    <!-- Background -->
+    <div style="position: absolute; inset: 0; z-index: 0;">
+      <img src="./assets/images/cta-background.jpg" alt="" style="width: 100%; height: 120%; object-fit: cover;" data-parallax="0.3">
+    </div>
+    <div style="position: absolute; inset: 0; background: var(--gradient-dark-overlay); z-index: 1;"></div>
+    
+    <!-- Content -->
+    <div class="container" style="position: relative; z-index: 2; text-align: center;">
+      <h2 class="display-lg reveal" style="color: var(--text-light); margin-bottom: 16px;">Let's Create Something Extraordinary</h2>
+      <p class="body reveal" style="color: var(--text-muted); margin-bottom: 40px;">Every great design starts with a conversation.</p>
+      <div class="reveal">
+        <a href="./contact.html" class="btn btn-primary" style="padding: 16px 40px; font-size: 14px;"><span>Get In Touch</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="./assets/images/logo.png" alt="Galih Adam Logo">
+          <p>Visual Communication Designer</p>
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./works.html">Works</a>
+          <a href="./skills.html">Skills</a>
+          <a href="./experience.html">Experience</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+        
+        <!-- Work Categories -->
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <a href="./works/branding.html">Branding</a>
+          <a href="./works/packaging.html">Packaging</a>
+          <a href="./works/editorial.html">Editorial</a>
+          <a href="./works/digital.html">Digital</a>
+          <a href="./works/illustration.html">Illustration</a>
+          <a href="./works/typography.html">Typography</a>
+        </div>
+        
+        <!-- Social -->
+        <div class="footer-col">
+          <h4>Social</h4>
+          <a href="https://www.instagram.com/g_man_gentle?igsh=MW96c3ZjejN5N3R1ZQ==" target="_blank">Instagram</a>
+          <a href="https://www.behance.net/rakunmati" target="_blank">Behance</a>
+          <a href="https://dribbble.com/galih-adam" target="_blank">Dribbble</a>
+          <a href="https://www.linkedin.com/in/galih-adam-arkani-676506354/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      
+      <div class="footer-divider"></div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Galih Adam. All rights reserved.</p>
+        <a href="#">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bottom Contact Bar -->
+  <div class="bottom-bar">
+    <div class="bottom-bar-inner">
+      <div class="bottom-bar-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span>adamgalih489@gmail.com</span>
+      </div>
+      
+      <div class="bottom-bar-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Yogyakarta, Bantul</span>
+      </div>
+      
+      <div class="bottom-bar-socials">
+        <a href="https://www.instagram.com/g_man_gentle?igsh=MW96c3ZjejN5N3R1ZQ==" target="_blank" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://www.behance.net/rakunmati" target="_blank" aria-label="Behance">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h6a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3V3z"/><path d="M3 11h7a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3v-8z"/><path d="M15 4h6"/><path d="M15 20h5a3 3 0 0 0 0-6h-5v6z"/></svg>
+        </a>
+        <a href="https://dribbble.com/galih-adam" target="_blank" aria-label="Dribbble">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"/><path d="M21.75 12.84c-6.62-1.41-12.14 1.36-17.49 7.38"/><path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/galih-adam-arkani-676506354/" target="_blank" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <!-- Main JS -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
