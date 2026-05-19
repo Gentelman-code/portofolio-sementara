@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', () => {
   new CustomCursor();
   new Navigation();
 
-  // Scroll reveal: tetap boleh, tapi matikan transform berat jika reduceHeavyEffects
+  // Pastikan teks terlihat jika efek animasi dimatikan
   new ScrollReveal();
 
   if (!reduceHeavyEffects) {
@@ -487,6 +487,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (particleContainer) {
       new ParticleBackground(particleContainer);
     }
+  } else {
+    // Jika efek berat dikurangi (mobile/low-power), pastikan teks langsung muncul tanpa opasitas 0
+    document.querySelectorAll('[data-split-text]').forEach(el => {
+      el.style.opacity = '1';
+    });
   }
 
   // Smooth scroll for anchor links
@@ -501,4 +506,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
-
