@@ -817,9 +817,10 @@ input, textarea {
    ======================================== */
 .split-text .char {
   display: inline-block;
-  opacity: 0;
-  transform: translateY(100%);
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
+
 
 .split-text.animated .char {
   animation: char-reveal 0.8s var(--ease-expo-out) forwards;
@@ -1130,7 +1131,8 @@ textarea.form-input {
    Gold Text Gradient
    ======================================== */
 .text-gold-gradient {
-  color: #ffffff; /* Fallback warna putih jika gradien tidak didukung */
+  color: #ffffff !important; /* Fallback warna putih jika gradien tidak didukung */
+
   background: linear-gradient(to bottom, #FFFFFF 0%, #D4AF37 100%);
   -webkit-background-clip: text;
   background-clip: text;
