@@ -699,10 +699,18 @@ input, textarea {
   transition: opacity 0.3s var(--ease-default);
 }
 
+.page-transition {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s var(--ease-default);
+}
+
+/* Pastikan overlay tidak membekukan layar saat navigasi/back-forward */
 .page-transition.active {
   opacity: 1;
-  pointer-events: all;
+  pointer-events: none;
 }
+
 
 /* ========================================
    Particle Background
@@ -1479,7 +1487,7 @@ textarea.form-input {
     will-change: transform;
   }
 
-  /* Work/Cat cards: micro-interaction elegan */
+  /* Work/Cat cards: micro-interaction elegant */
   .work-card:hover .work-card-overlay {
     opacity: 1;
   }
